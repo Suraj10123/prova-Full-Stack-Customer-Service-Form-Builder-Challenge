@@ -38,4 +38,4 @@ Example Pics:
 
 <img width="1328" alt="image" src="https://github.com/user-attachments/assets/b0360f25-482d-42dd-aab3-03a812c6e2fc" />
 
-![image](https://github.com/user-attachments/assets/5261c3f7-483f-44b7-8166-addc5c87eed8)
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/fed63112-05a4-4d08-ae86-79dfe14e2878" />
