@@ -1,0 +1,50 @@
+/* 1) CSS variables for light & dark themes */
+:root {
+  --bg-color:     #ffffff;
+  --text-color:   #000000;
+  --nav-bg:       #eeeeee;
+  --card-bg:      #f9f9f9;
+  --border-color: #dddddd;
+}
+
+.dark {
+  --bg-color:     #121212;
+  --text-color:   #eeeeee;
+  --nav-bg:       #1f1f1f;
+  --card-bg:      #1e1e1e;
+  --border-color: #333333;
+}
+
+/* 2) Apply theme colors */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav {
+  background: var(--nav-bg);
+  padding: 1rem;
+}
+
+/* 3) Any card / pre blocks */
+pre, .card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* 4) Default CRA typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
